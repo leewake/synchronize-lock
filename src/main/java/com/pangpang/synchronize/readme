@@ -6,5 +6,5 @@ http://blog.csdn.net/shenshibaoma/article/details/53009505
 test_this包下验证synchronize加在普通方法上，以及使用synchronize(this)加锁效果
 -----锁住的是对象
 
-test_this包下验证synchronize加在static方法上，以及使用synchronize(.class)加锁效果
+test_class包下验证synchronize加在static方法上，以及使用synchronize(.class)加锁效果
 -----锁住的是代码

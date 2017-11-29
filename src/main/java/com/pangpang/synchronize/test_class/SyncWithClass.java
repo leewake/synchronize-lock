@@ -8,7 +8,7 @@ public class SyncWithClass {
         synchronized (SyncWithClass.class){
             System.out.println("在方法内使用.class加锁，test开始..");
             try {
-                Thread.sleep(2000);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
