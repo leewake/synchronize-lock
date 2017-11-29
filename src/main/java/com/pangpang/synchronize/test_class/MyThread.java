@@ -16,7 +16,8 @@ public class MyThread extends Thread {
 
     public void run() {
         syncWithClass.test();
-        SyncWithStaticMethod.test();
+        syncWithClass.callTest();
+        //SyncWithStaticMethod.test();
     }
 
 }

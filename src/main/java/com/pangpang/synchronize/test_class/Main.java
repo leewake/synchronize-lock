@@ -11,13 +11,13 @@ public class Main {
         SyncWithClass syncWithClass = new SyncWithClass();
         SyncWithStaticMethod syncWithStaticMethod = new SyncWithStaticMethod();
 
-        /*for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 1; i++) {
             Thread thread = new MyThread(syncWithClass, syncWithStaticMethod);
             thread.start();
-        }*/
+        }
 
-        SyncWithClass syncWithThis = new SyncWithClass();
+        /*SyncWithClass syncWithThis = new SyncWithClass();
         syncWithThis.test();
-        syncWithThis.callTest();
+        syncWithThis.callTest();*/
     }
 }
